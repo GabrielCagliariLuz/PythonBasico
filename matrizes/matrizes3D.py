@@ -5,7 +5,7 @@
 #### Prof. Filipo Novo Mór - filipomor.com                 ####
 ###############################################################
 import random
-N = 5
+N = 3
 
 ###
 ### Devolve o maior valor numérico existente na matriz.
@@ -56,7 +56,7 @@ def MostraGradeTela(matriz, titulo, mostraMarcacoes, qtDigitos):
                     # configura a quantidade de '.'s para a quantidade de digitos esperada
                     print(F" {'.' * qtDigitos} ", end="")
                 else:
-                    print(F" {" " * qtDigitos} ", end="")
+                    print(F"  * {qtDigitos} ", end="")
             else:
                 print(f" {int(matriz[y][x]):>{qtDigitos}} ", end='')
         print()
